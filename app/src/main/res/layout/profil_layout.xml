@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.skander.restaurationcampus.MainActivity"
+    tools:showIn="@layout/app_bar_profil">
+
+       <LinearLayout
+           android:orientation="vertical" android:layout_width="match_parent"
+           android:layout_height="match_parent">
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="3dp">
+
+                     <TextView android:id="@+id/profil_textview_nom"
+                         style="@style/Profil_textview_style"
+                         android:text="@string/profil_nom_message"
+                         android:layout_marginLeft="5dp"
+                         />
+                     <EditText android:id="@+id/profil_nom_message"
+                         style="@style/Profil_edittext_style"
+                         android:layout_marginLeft="83dp"
+
+                         />
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="15dp">
+
+                     <TextView android:id="@+id/profil_textview_prenom"
+                         style="@style/Profil_textview_style"
+                         android:text="@string/profil_prenom_message"
+                         android:layout_marginLeft="5dp"
+                         />
+                     <EditText android:id="@+id/profil_prenom_message"
+                         style="@style/Profil_edittext_style"
+                         android:layout_marginLeft="48dp"
+                         />
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="15dp">
+
+                     <TextView android:id="@+id/profil_textview_email"
+                         style="@style/Profil_textview_style"
+                         android:text="@string/profil_email_message"
+                         android:layout_marginLeft="5dp"
+                         />
+                     <EditText android:id="@+id/profil_email_message"
+                         style="@style/Profil_edittext_style"
+                         android:layout_marginLeft="60dp"
+                         />
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="15dp">
+
+                     <TextView android:id="@+id/profil_textview_universite"
+                         style="@style/Profil_textview_style"
+                         android:text="@string/profil_universite_message"
+                         android:layout_marginLeft="5dp"
+                         />
+                     <EditText android:id="@+id/profil_universite_message"
+                         style="@style/Profil_edittext_style"
+                         android:layout_marginLeft="2dp"
+
+                         />
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="15dp">
+
+                     <TextView android:id="@+id/profil_textview_preference"
+                         style="@style/Profil_textview_style"
+                         android:text="@string/profil_preference_message"
+                         android:layout_marginLeft="5dp"
+                         />
+                     <Spinner android:id="@+id/spinner_preference"
+                         style="@style/Profil_edittext_style"
+                         android:layout_height="38dp"
+                         android:layout_marginTop="-8dp"
+                         android:spinnerMode="dropdown">
+                     </Spinner>
+              </LinearLayout>
+
+
+
+
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="15dp">
+
+                     <TextView android:id="@+id/profil_textview_regime"
+                         style="@style/Profil_textview_style"
+                         android:text="@string/profil_regime_message"
+                         android:layout_marginLeft="5dp"
+                         />
+                     <Spinner android:id="@+id/spinner_regime"
+                         style="@style/Profil_edittext_style"
+
+                         android:layout_height="38dp"
+                         android:layout_width="223dp"
+                         android:layout_marginLeft="48dp"
+                         android:layout_marginTop="-8dp"
+
+
+
+                         android:prompt="@string/spinner_regime_default"
+
+                         android:spinnerMode="dropdown">
+                     </Spinner>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="15dp">
+
+                     <Button android:id="@+id/profil_textview_bouton"
+                         style="@style/Profil_textview_style"
+                         android:text="@string/profil_bouton_message"
+                         android:layout_marginLeft="5dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content" />
+
+              </LinearLayout>
+
+       </LinearLayout>
+
+</RelativeLayout>

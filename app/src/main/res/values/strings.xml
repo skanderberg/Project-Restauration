@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Restauration Campus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="profil_nom_message">Nom</string>
+    <string name="profil_prenom_message">Prénom</string>
+    <string name="profil_email_message">Email</string>
+    <string name="profil_universite_message">Université</string>
+    <string name="profil_preference_message">Préférence</string>
+    <string name="profil_regime_message">Régime</string>
+
+    <string name="profil_bouton_message">Submit</string>
+    <string name="Ajouter_amis_bouton_message">Ajouter</string>
+
+    <string name="spinner_regime_default">alalalal</string>
+
+
+    <string-array name="array_spinner_preference">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+    </string-array>
+    <string-array name="array_spinner_regime">
+        <item>r1</item>
+        <item>r2</item>
+        <item>r3</item>
+    </string-array>
+
+</resources>
